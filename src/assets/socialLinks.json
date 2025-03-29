@@ -4,5 +4,17 @@
     "icon": "/images/icon/bilibili.png",
     "tip": "(゜-゜)つロ 干杯 ~",
     "url": "https://space.bilibili.com/37709929"
+  },
+  {
+    "name": "QQ",
+    "icon": "/images/icon/qq.png",
+    "tip": "进群一起玩啊",
+    "url": "https://qm.qq.com/q/RO7WcxarCs"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "来封 Email ~",
+    "url": "mailto:xiaoyou@xysm.top"
   }
 ]

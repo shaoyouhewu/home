@@ -61,12 +61,10 @@ p {
 // 卡片样式
 .cards {
   border-radius: 6px;
-  background-color: #00000040;
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.4); /* 40% 透明黑色背景（等同于 #00000040） */
+  /* 移除 backdrop-filter: blur(10px); */
   transform: scale(1);
-  transition:
-    backdrop-filter 0.3s,
-    transform 0.3s;
+  transition: transform 0.3s; /* 移除 backdrop-filter 过渡 */
   &:hover {
     transform: scale(1.01);
   }
